@@ -15,9 +15,9 @@
   <h1>Hello World!</h1>
   <p>Three equal width columns! Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
   <div class="row">
-    <div class="col" style="background-color:lavender;">.col</div>
-    <div class="col" style="background-color:orange;">.col</div>
-    <div class="col" style="background-color:lavender;">.col</div>
+    <div class="col-sm-12" style="background-color:lavender;">.col-sm-12</div>
+    <div class="col-sm-12" style="background-color:orange;">.col-sm-12</div>
+    <div class="col-sm-12" style="background-color:lavender;">.col-sm-12</div>
   </div>
 </div>
 
