@@ -21,13 +21,13 @@
 
   <div class="form-group">
     <label for="firstname">First Name</label>
-  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="firstname" pattern="^[a-zA-Z]+$" placeholder="Enter your first name (e.g John)">
+  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="firstname" pattern="^[a-zA-Z]+$" placeholder="Enter your first name (e.g John)"> <!--required-->
   </div>
 
   <br/>
   <div class="form-group">
   <label for="lastname">Last Name</label>
-  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="lastname" pattern="^[a-zA-Z]+$" placeholder="Enter your last name (e.g Smith)">
+  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="lastname" pattern="^[a-zA-Z]+$" placeholder="Enter your last name (e.g Smith)"> <!--required-->
   </div>
 
   <br/>
@@ -35,13 +35,13 @@
     <label for="useremail">Email address</label>
     <input type="email" class="form-control" id="useremail" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email address.</small>
-  </div>
+  </div> <!--required-->
 
   <br/>
   <div class="form-group">
     <label for="pwd">Password</label>
     <input type="password" class="form-control" id="pwd" placeholder="Password">
-  </div>
+  </div> <!--required and needs another field to reconfirm password-->
 
   <br/>
   <div class="form-group">
