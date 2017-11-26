@@ -17,35 +17,40 @@
   <h2>Registration</h2>
   <hr/>
 
-  <form>
+  <form id="formReg">
 
   <div class="form-group">
     <label for="firstname">First Name</label>
-  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="firstname" placeholder="Enter your first name">
+  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="firstname" pattern="^[a-zA-Z]+$" placeholder="Enter your first name (e.g John)">
   </div>
 
+  <br/>
   <div class="form-group">
   <label for="lastname">Last Name</label>
-  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="lastname" placeholder="Enter your last name">
+  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="lastname" pattern="^[a-zA-Z]+$" placeholder="Enter your last name (e.g Smith)">
   </div>
 
+  <br/>
   <div class="form-group">
     <label for="useremail">Email address</label>
     <input type="email" class="form-control" id="useremail" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email address.</small>
   </div>
 
+  <br/>
   <div class="form-group">
     <label for="pwd">Password</label>
     <input type="password" class="form-control" id="pwd" placeholder="Password">
   </div>
 
+  <br/>
   <div class="form-group">
     <label for="legit">Legitimate Identification</label>
     <input type="file" class="form-control-file" id="legit" aria-describedby="fileHelp">
     <small id="fileHelp" class="form-text text-muted">Please insert any copy of identification for verification puruposes. We'll never share your ID.....</small>
   </div>
 
+  <br/>
   <fieldset class="form-group">
     <legend><h6 class="font-weight-normal">Gender</h6></legend>
     <div class="form-check">
@@ -65,9 +70,17 @@
     </label>
   </div>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <br/>
+  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="reset" class="btn btn-danger">Reset</button>
 </form>
 </div>
+
+<footer>
+  <?php
+    include ("footer.inc");
+  ?>
+</footer>
 
 </body>
 </html>

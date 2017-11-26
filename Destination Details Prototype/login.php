@@ -40,5 +40,11 @@
 
 </div>
 
+<footer>
+  <?php
+    include ("footer.inc");
+  ?>
+</footer>
+
 </body>
 </html>
