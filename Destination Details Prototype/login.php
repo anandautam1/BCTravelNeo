@@ -18,7 +18,7 @@
   <h2>Login</h2>
   <hr/>
   <div class="row">
-     <div class="col-sm-10 offset-sm-1 text-center">
+     <div class="col-sm-4 offset-sm-4 text-center">
         <form>
           <div class="form-group">
             <label for="username">Username</label>
