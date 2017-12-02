@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>BCTravelNeo Login</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <title>BC Travel Login</title>
+  <?php
+    include ("metahead.inc");
+  ?>
 </head>
 <body>
 
 <div class="container-fluid">
 
-  <div class="col-sm-12" style="background-color:lavender;">BCTravelNeo</div>
+  <div class="col-sm-12" style="background-color:lavender;">BC Travel</div>
   <br/>
 
 
