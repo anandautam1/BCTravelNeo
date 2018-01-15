@@ -5,6 +5,8 @@
   <?php
     include ("metahead.inc");
   ?>
+  <link rel="stylesheet" href="styles/registerPwd.css">
+  <script src="scripts/registerValidation.js"></script>
 </head>
 <body>
 
@@ -15,7 +17,7 @@
       <h2>Registration</h2>
       <hr/>
 
-      <form id="formReg">
+      <form id="formReg"> <!--Will have to add action=somethting.php-->
 
         <div class="form-group">
           <label for="firstname">First Name</label>
@@ -40,6 +42,16 @@
           <label for="pwd">Password</label>
           <input type="password" class="form-control" id="pwd" placeholder="Password" required="required">
         </div> <!--required and needs another field to reconfirm password-->
+
+
+        <div id="message"> <!--PASSWORD VALIDATOR-->
+          <h3>Password must contain the following:</h3>
+          <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+          <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+          <p id="number" class="invalid">A <b>number</b></p>
+          <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+        </div>
+
 
         <br/>
         <div class="form-group">
